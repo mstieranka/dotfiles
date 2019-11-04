@@ -1,0 +1,18 @@
+Android MTP,android-file-transfer
+Android Studio,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/android-studio/bin/studio.sh,/usr/share/icons/Paper/24x24/apps/android-studio.png
+FileZilla,/bin/filezilla
+Firefox,export MOZ_ENABLE_WAYLAND=1; /bin/firefox,/usr/share/icons/Paper/24x24/apps/firefox.png
+GParted,/usr/bin/gparted,/usr/share/icons/Paper/24x24/apps/gparted.png
+IntelliJ IDEA,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/IntelliJ/bin/idea.sh,/home/stiermat/Applications/IntelliJ/bin/idea.svg
+Krita,krita,/usr/share/icons/Paper/24x24/mimetypes/image.png
+Mathematica,/usr/local/Wolfram/Mathematica/12.0/Executables/Mathematica,/usr/share/icons/Paper/24x24/apps/wolfram-mathematica.png
+ownCloud,/bin/owncloud
+PlayOnLinux,/bin/playonlinux
+Spotify,spotify,/usr/share/icons/Paper/24x24/apps/spotify.png
+Termite,termite,/usr/share/icons/Paper/24x24/apps/terminal.png
+Thunar File Manager,thunar,/usr/share/icons/Paper/24x24/apps/thunar.png
+Thunderbird,/usr/lib/thunderbird/thunderbird,/usr/share/icons/Paper/24x24/apps/thunderbird.png
+Todoist,/bin/todoist
+Viewnior,viewnior,/usr/share/icons/Paper/24x24/apps/lximage.png
+Visual Studio Code,code,/usr/share/icons/Paper/24x24/apps/visual-studio-code.png
+VLC,/usr/bin/vlc,/usr/share/icons/Paper/24x24/apps/vlc.png

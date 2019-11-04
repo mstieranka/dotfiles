@@ -1,0 +1,37 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "name": "pm",
+    "height": 25,
+    "modules-left": ["custom/prompt"],
+    "modules-right": ["custom/shutdown", "custom/suspend", "custom/reboot", "custom/logout", "custom/close"],
+    "custom/prompt": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tWhat do you want to do?",
+        "tooltip": false
+    },
+    "custom/shutdown": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tShutdown",
+        "tooltip": false,
+        "on-click": "shutdown now"
+    },
+    "custom/suspend": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tSuspend",
+        "tooltip": false,
+        "on-click": "systemctl suspend"
+    },
+    "custom/reboot": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tReboot",
+        "tooltip": false,
+        "on-click": "reboot"
+    },
+    "custom/logout": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tLog out",
+        "tooltip": false,
+        "on-click": "swaymsg exit"
+    },
+    "custom/close": {
+        "format": "<span size=\"large\" rise=\"-3333\"></span>\tClose",
+        "tooltip": false,
+        "on-click": "pkill -9 -f 'waybar-pm'"
+    }
+}

@@ -1,0 +1,124 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* font-family: 'Source Code Pro', 'Material Design Icons'; */
+    font-family: 'Roboto', 'Material Design Icons';
+    font-weight: 500;
+    font-size: 13px;
+    min-height: 0;
+}
+
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar > box {
+	padding: 0px 20px;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+#workspaces button {
+    padding: 0 3px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+    background: rgba(42, 82, 192, 0.5);
+    box-shadow: inherit;
+}
+
+#workspaces button.focused {
+    background-color: rgb(42, 82, 192);
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #ffffff;
+    padding: 0 5px;
+}
+
+#clock,
+#battery,
+#backlight,
+#network,
+#pulseaudio,
+#custom-apps {
+    padding: 0 10px;
+    /* margin: 0 4px; */
+    color: #ffffff;
+}
+
+#clock {
+    /* background-color: #64727D; */
+}
+
+#battery.charging {
+    color: rgb(50, 223, 122);
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.low:not(.charging) {
+    color: #fc1717;
+}
+
+#pulseaudio.muted, #network {
+    color: rgba(255,255,255,0.5);
+}
+
+#network.ethernet, #network.wifi:not(.linked) {
+    color: white;
+}
+
+
+#tray {
+    background-color: #2980b9;
+}
+
+#custom-prompt,
+#custom-shutdown,
+#custom-suspend,
+#custom-reboot,
+#custom-logout,
+#custom-close {
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: transparent;
+}
+
+#custom-prompt:hover,
+#custom-shutdown:hover,
+#custom-suspend:hover,
+#custom-reboot:hover,
+#custom-logout:hover,
+#custom-close:hover {
+    background-color: rgba(42, 82, 192, 0.5);
+    box-shadow: inherit;
+}
