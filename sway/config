@@ -71,6 +71,7 @@ input type:touchpad {
     natural_scroll enabled
     tap enabled
     drag enabled
+    events disabled_on_external_mouse
 }
 
 ### Key bindings
