@@ -1,5 +1,6 @@
 Android MTP,android-file-transfer
 Android Studio,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/android-studio/bin/studio.sh,/usr/share/icons/Paper/24x24/apps/android-studio.png
+Deezloader Remix,/home/stiermat/Applications/Deezloader_Remix_4.2.2-x86_64.AppImage
 FileZilla,/bin/filezilla
 Firefox,export MOZ_ENABLE_WAYLAND=1; /bin/firefox,/usr/share/icons/Paper/24x24/apps/firefox.png
 GParted,/usr/bin/gparted,/usr/share/icons/Paper/24x24/apps/gparted.png
