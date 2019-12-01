@@ -764,3 +764,7 @@ div.glue-page-header__navbar-wrapper > div > div > div > ul > li > a {
 .ConnectDevicePicker__button--with-badge:after {
 	background-color: var(--modspotify_selected_button);
 }
+
+#discography > div.appears_on > ul > li > div > div > div.card-info-wrapper.card-info-with-metadata {
+	text-align: center;
+}
