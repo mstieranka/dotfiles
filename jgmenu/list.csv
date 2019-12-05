@@ -10,6 +10,7 @@ Mathematica,/usr/local/Wolfram/Mathematica/12.0/Executables/Mathematica,/usr/sha
 ownCloud,/bin/owncloud,/usr/share/icons/Paper/24x24/web/owncloud.png
 PlayOnLinux,/bin/playonlinux,/usr/share/icons/Paper/24x24/apps/wine.png
 Spotify,spotify,/usr/share/icons/Paper/24x24/apps/spotify.png
+Telegram,/bin/telegram-desktop,/usr/share/icons/Paper/24x24/web/telegram.png
 Termite,termite,/usr/share/icons/Paper/24x24/apps/terminal.png
 Thunar File Manager,thunar,/usr/share/icons/Paper/24x24/apps/thunar.png
 Thunderbird,/usr/lib/thunderbird/thunderbird,/usr/share/icons/Paper/24x24/apps/thunderbird.png
