@@ -72,6 +72,7 @@ input type:touchpad {
     tap enabled
     drag enabled
     events disabled_on_external_mouse
+    middle_emulation disabled
 }
 
 input "1112:395:KYE_SYSTEMS_CORP._Gaming_Mouse" {
