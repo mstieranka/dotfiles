@@ -116,6 +116,7 @@ input "1112:395:KYE_SYSTEMS_CORP._Gaming_Mouse" {
     default_border none
     default_floating_border pixel 2
     gaps inner 25
+    font pango:Roboto Medium 10
 
 # Moving around:
 #
