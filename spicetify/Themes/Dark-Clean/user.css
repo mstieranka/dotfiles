@@ -768,3 +768,7 @@ div.glue-page-header__navbar-wrapper > div > div > div > ul > li > a {
 #discography > div.appears_on > ul > li > div > div > div.card-info-wrapper.card-info-with-metadata {
 	text-align: center;
 }
+
+#root > div > div.App__header > div > div.GlueHeader__content-wrapper.container > div > div > div > div > section > div > div > div.card-info-wrapper.card-info-with-subtitle-links.card-info-with-metadata > div.card-info-subtitle-metadata {
+	text-align: center;
+}
