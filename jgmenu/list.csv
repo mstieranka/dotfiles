@@ -3,6 +3,9 @@ Android Studio,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications
 Deezloader Remix,/home/stiermat/Applications/Deezloader_Remix_4.2.2-x86_64.AppImage,/home/stiermat/Pictures/icons/dlremix.png
 FileZilla,/bin/filezilla,/usr/share/icons/Paper/24x24/apps/filezilla.png
 Firefox,env MOZ_ENABLE_WAYLAND=1 /bin/firefox,/usr/share/icons/Paper/24x24/apps/firefox.png
+FreeOffice PlanMaker,/usr/bin/freeoffice-planmaker,/usr/share/icons/Paper/24x24/mimetypes/x-office-spreadsheet.png
+FreeOffice Presentations,/usr/bin/freeoffice-presentations,/usr/share/icons/Paper/24x24/mimetypes/x-office-presentation.png
+FreeOffice TextMaker,/usr/bin/freeoffice-textmaker,/usr/share/icons/Paper/24x24/mimetypes/x-office-document.png
 GParted,/usr/bin/gparted,/usr/share/icons/Paper/24x24/apps/gparted.png
 IntelliJ IDEA,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/IntelliJ/bin/idea.sh,/home/stiermat/Applications/IntelliJ/bin/idea.svg
 Krita,krita,/usr/share/icons/Paper/24x24/mimetypes/image.png
