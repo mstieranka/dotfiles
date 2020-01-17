@@ -106,12 +106,9 @@ function dot {
 }
 
 if [[ $(tty) = /dev/tty1 || $(tty) = /dev/tty2 ]]; then
+    figlet 'Welcome to ax5 !'
     exec sway
 fi
-
-script_folder="~/Coding/linux-utils"
-
-alias screenshot="${script_folder}/screenshot.sh"
 
 function xampp {
 	sudo /opt/lampp/xampp ${1}
@@ -123,7 +120,13 @@ function sudoui {
 	xhost -si:localuser:root
 }
 
+script_folder="~/Coding/linux-utils"
+
+alias screenshot="${script_folder}/screenshot.sh"
 alias connect="${script_folder}/ssh.sh"
 alias progtest="${script_folder}/progtest.sh"
+
+alias micro='MICRO_TRUECOLOR=1 micro'
+alias m='MICRO_TRUECOLOR=1 micro'
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.gem/ruby/2.6.0/bin:$HOME/.local/bin:$PATH"
