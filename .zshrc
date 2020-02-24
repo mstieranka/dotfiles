@@ -129,4 +129,4 @@ alias progtest="${script_folder}/progtest.sh"
 alias micro='MICRO_TRUECOLOR=1 micro'
 alias m='MICRO_TRUECOLOR=1 micro'
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.gem/ruby/2.6.0/bin:$HOME/.local/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.gem/ruby/2.7.0/bin:$HOME/.local/bin:$PATH"
