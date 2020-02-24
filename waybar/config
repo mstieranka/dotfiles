@@ -32,6 +32,8 @@
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {desc}, {volume}%",
+        "format-bluetooth-muted": "<span size=\"large\" rise=\"-3333\"></span> {desc}, Muted",
         "format-muted": "<span size=\"large\" rise=\"-3333\"></span> Muted",
         "format-icons": {
             "default": "<span size=\"large\" rise=\"-3333\"></span>",
