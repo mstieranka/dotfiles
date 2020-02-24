@@ -1,5 +1,6 @@
 Android MTP,android-file-transfer,/home/stiermat/Pictures/icons/android.png
 Android Studio,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/android-studio/bin/studio.sh,/usr/share/icons/Paper/24x24/apps/android-studio.png
+Bluetooth Manager,/usr/bin/blueman-manager,/usr/share/icons/Paper/24x24/apps/bluetoothradio.png
 Deezloader Remix,/home/stiermat/Applications/Deezloader_Remix_4.3.0-x86_64.AppImage,/home/stiermat/Pictures/icons/dlremix.png
 FileZilla,/bin/filezilla,/usr/share/icons/Paper/24x24/apps/filezilla.png
 Firefox,env MOZ_ENABLE_WAYLAND=1 /bin/firefox,/usr/share/icons/Paper/24x24/apps/firefox.png
