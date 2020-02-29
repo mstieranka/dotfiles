@@ -37,7 +37,7 @@
         "format-muted": "<span size=\"large\" rise=\"-3333\"></span> Muted",
         "format-icons": {
             "default": "<span size=\"large\" rise=\"-3333\"></span>",
-            "headphones": "<span size=\"large\" rise=\"-3833\"></span>",
+            "headphone": "<span size=\"large\" rise=\"-3833\"></span>",
             "speaker": "<span size=\"large\" rise=\"-3333\"></span>"
         },
         "on-click": "amixer set Master toggle",
