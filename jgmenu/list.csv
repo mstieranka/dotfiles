@@ -2,6 +2,7 @@ Android MTP,android-file-transfer,/home/stiermat/Pictures/icons/android.png
 Android Studio,export _JAVA_AWT_WM_NONREPARENTING=1; /home/stiermat/Applications/android-studio/bin/studio.sh,/usr/share/icons/Paper/24x24/apps/android-studio.png
 Bluetooth Manager,/usr/bin/blueman-manager,/usr/share/icons/Paper/24x24/apps/bluetoothradio.png
 Deezloader Remix,/home/stiermat/Applications/Deezloader_Remix_4.3.0-x86_64.AppImage,/home/stiermat/Pictures/icons/dlremix.png
+Dolphin,dolphin,/usr/share/icons/Paper/24x24/apps/file-manager.png
 FileZilla,/bin/filezilla,/usr/share/icons/Paper/24x24/apps/filezilla.png
 Firefox,env MOZ_ENABLE_WAYLAND=1 /bin/firefox,/usr/share/icons/Paper/24x24/apps/firefox.png
 FreeOffice PlanMaker,/usr/bin/freeoffice-planmaker,/usr/share/icons/Paper/24x24/mimetypes/x-office-spreadsheet.png
@@ -17,7 +18,6 @@ PlayOnLinux,/bin/playonlinux,/usr/share/icons/Paper/24x24/apps/wine.png
 Spotify,spotify,/usr/share/icons/Paper/24x24/apps/spotify.png
 Telegram,/bin/telegram-desktop,/usr/share/icons/Paper/24x24/web/telegram.png
 Termite,termite,/usr/share/icons/Paper/24x24/apps/terminal.png
-Thunar File Manager,thunar,/usr/share/icons/Paper/24x24/apps/thunar.png
 Thunderbird,/usr/lib/thunderbird/thunderbird,/usr/share/icons/Paper/24x24/apps/thunderbird.png
 Todoist,/bin/todoist,/home/stiermat/Pictures/icons/todoist.png
 Viewnior,viewnior,/usr/share/icons/Paper/24x24/apps/lximage.png
