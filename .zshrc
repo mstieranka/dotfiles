@@ -125,6 +125,7 @@ script_folder="~/Coding/linux-utils"
 alias screenshot="${script_folder}/screenshot.sh"
 alias connect="${script_folder}/ssh.sh"
 alias progtest="${script_folder}/progtest.sh"
+alias monitor="${script_folder}/monitor.sh"
 
 alias micro='MICRO_TRUECOLOR=1 micro'
 alias m='MICRO_TRUECOLOR=1 micro'
