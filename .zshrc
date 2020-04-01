@@ -127,22 +127,8 @@ alias connect="${script_folder}/ssh.sh"
 alias progtest="${script_folder}/progtest.sh"
 alias monitor="${script_folder}/monitor.sh"
 
-alias micro='MICRO_TRUECOLOR=1 micro'
-alias m='MICRO_TRUECOLOR=1 micro'
+alias micro='TERM=xterm-256color MICRO_TRUECOLOR=1 micro'
+alias m='TERM=xterm-256color MICRO_TRUECOLOR=1 micro'
 
-PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.gem/ruby/2.7.0/bin:$HOME/.local/bin:$PATH"
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/stiermat/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/stiermat/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/stiermat/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/stiermat/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-conda deactivate
+PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.gem/ruby/2.7.0/bin:$HOME/.local/bin:/home/stiermat/miniconda3/bin:$PATH"
+. "/home/stiermat/miniconda3/etc/profile.d/conda.sh"
